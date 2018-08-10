@@ -2553,7 +2553,8 @@ grid 2.54 mm</description>
 <pin name="S" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
 </symbol>
 <symbol name="SOLDER_PAD">
-<pin name="P$1" x="0" y="-4.191" visible="off" length="middle" function="dot" rot="R90"/>
+<pin name="P$1" x="0" y="0" visible="off" length="middle" function="dot" rot="R90"/>
+<text x="-1.524" y="0" size="1.4224" layer="95" rot="R90">&gt;NAME</text>
 </symbol>
 <symbol name="TP4056">
 <pin name="TEMP" x="12.7" y="0" length="short" direction="in" rot="R180"/>
@@ -3725,6 +3726,9 @@ Source: Epson Toyocom</description>
 </gates>
 <devices>
 <device name="" package="SOLDER_PAD">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
