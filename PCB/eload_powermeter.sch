@@ -14288,6 +14288,9 @@ both lines</text>
 <wire x1="43.18" y1="25.4" x2="48.26" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="25.4" x2="48.26" y2="22.86" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<junction x="25.4" y="142.24"/>
+</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
@@ -14297,7 +14300,6 @@ both lines</text>
 <wire x1="167.64" y1="76.2" x2="167.64" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="81.28" x2="175.26" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="R15" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="81.28" x2="167.64" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="76.2" x2="175.26" y2="81.28" width="0.1524" layer="91"/>
 <junction x="167.64" y="81.28"/>
 </segment>
@@ -14401,6 +14403,11 @@ both lines</text>
 <label x="345.44" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="347.98" y1="162.56" x2="345.44" y2="162.56" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="PD7(AIN1)"/>
+<wire x1="129.54" y1="60.96" x2="132.08" y2="60.96" width="0.1524" layer="91"/>
+<label x="132.08" y="60.96" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="MA" class="0">
 <segment>
@@ -14408,6 +14415,11 @@ both lines</text>
 <wire x1="347.98" y1="142.24" x2="347.98" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="347.98" y1="139.7" x2="345.44" y2="139.7" width="0.1524" layer="91"/>
 <label x="345.44" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="PD6(AIN0)"/>
+<wire x1="129.54" y1="63.5" x2="132.08" y2="63.5" width="0.1524" layer="91"/>
+<label x="132.08" y="63.5" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -14510,13 +14522,6 @@ both lines</text>
 <label x="353.06" y="236.22" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SENSE_A3" class="0">
-<segment>
-<wire x1="170.18" y1="27.94" x2="162.56" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="AIN3"/>
-<label x="162.56" y="27.94" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="SENSE_A2" class="0">
 <segment>
 <wire x1="170.18" y1="30.48" x2="162.56" y2="30.48" width="0.1524" layer="91"/>
@@ -14568,6 +14573,11 @@ both lines</text>
 <wire x1="157.48" y1="142.24" x2="152.4" y2="142.24" width="0.1524" layer="91"/>
 <label x="152.4" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="PD5(T1)"/>
+<wire x1="129.54" y1="66.04" x2="132.08" y2="66.04" width="0.1524" layer="91"/>
+<label x="132.08" y="66.04" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="ENC_B" class="0">
 <segment>
@@ -14579,6 +14589,11 @@ both lines</text>
 <wire x1="345.44" y1="60.96" x2="358.14" y2="60.96" width="0.1524" layer="91"/>
 <junction x="345.44" y="60.96"/>
 <label x="358.14" y="60.96" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="PD4(XCK/T0)"/>
+<wire x1="129.54" y1="68.58" x2="132.08" y2="68.58" width="0.1524" layer="91"/>
+<label x="132.08" y="68.58" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ENC_A" class="0">
@@ -14592,6 +14607,11 @@ both lines</text>
 <pinref part="C2" gate="G$1" pin="2"/>
 <label x="358.14" y="68.58" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="PD2(INT0)"/>
+<wire x1="129.54" y1="73.66" x2="132.08" y2="73.66" width="0.1524" layer="91"/>
+<label x="132.08" y="73.66" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="S_2" class="0">
 <segment>
@@ -14603,11 +14623,6 @@ both lines</text>
 <pinref part="U1" gate="G$1" pin="PB2(SS/OC1B)"/>
 <wire x1="129.54" y1="50.8" x2="132.08" y2="50.8" width="0.1524" layer="91"/>
 <label x="132.08" y="50.8" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<junction x="25.4" y="142.24"/>
 </segment>
 </net>
 <net name="VUSB" class="0">
@@ -14699,16 +14714,16 @@ both lines</text>
 <pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="187.96" y1="220.98" x2="187.96" y2="236.22" width="0.1524" layer="91"/>
 <pinref part="L1" gate="L" pin="1"/>
-<wire x1="195.58" y1="236.22" x2="208.28" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="236.22" x2="208.28" y2="236.22" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="G$1" pin="VIN"/>
-<wire x1="195.58" y1="228.6" x2="200.66" y2="228.6" width="0.1524" layer="91"/>
-<junction x="195.58" y="228.6"/>
-<wire x1="195.58" y1="228.6" x2="195.58" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="228.6" x2="200.66" y2="228.6" width="0.1524" layer="91"/>
+<junction x="198.12" y="228.6"/>
+<wire x1="198.12" y1="228.6" x2="198.12" y2="236.22" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="G$1" pin="EN"/>
-<wire x1="200.66" y1="223.52" x2="195.58" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="223.52" x2="195.58" y2="228.6" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="236.22" x2="195.58" y2="236.22" width="0.1524" layer="91"/>
-<junction x="195.58" y="236.22"/>
+<wire x1="200.66" y1="223.52" x2="198.12" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="223.52" x2="198.12" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="236.22" x2="198.12" y2="236.22" width="0.1524" layer="91"/>
+<junction x="198.12" y="236.22"/>
 <pinref part="SW_PWR2" gate="G$1" pin="P$1"/>
 <wire x1="177.8" y1="236.22" x2="187.96" y2="236.22" width="0.1524" layer="91"/>
 <junction x="187.96" y="236.22"/>
@@ -14930,6 +14945,11 @@ both lines</text>
 <wire x1="284.48" y1="58.42" x2="284.48" y2="60.96" width="0.1524" layer="91"/>
 <label x="284.48" y="60.96" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="PD3(INT1)"/>
+<wire x1="129.54" y1="71.12" x2="132.08" y2="71.12" width="0.1524" layer="91"/>
+<label x="132.08" y="71.12" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="SCK" class="0">
 <segment>
@@ -15020,6 +15040,15 @@ both lines</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,193.571,130.071,FRAME1,,,,,"/>
+<approved hash="113,1,327.018,245.4,CON_ROT1,,,,,"/>
+<approved hash="113,1,303.54,204.18,CON_SW2,,,,,"/>
+<approved hash="113,1,367.909,125.408,CON_SW1,,,,,"/>
+<approved hash="113,1,302.902,242.28,CON_ROT2,,,,,"/>
+<approved hash="113,1,39.3277,59.9161,JP1,,,,,"/>
+<approved hash="113,1,39.3277,29.4361,JP2,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

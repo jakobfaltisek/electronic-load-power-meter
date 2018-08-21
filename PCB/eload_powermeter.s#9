@@ -8476,21 +8476,21 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 <description>&lt;b&gt;11mm Incemental Encoder&lt;/b&gt;&lt;p&gt;
 Source: www.piher.net .. 04-CI-11v04.pdf</description>
 <circle x="0" y="0" radius="4.4901" width="0.2032" layer="39"/>
-<circle x="0" y="0" radius="2.54" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="2.54" width="0.2032" layer="51"/>
 <wire x1="-5.75" y1="7.2" x2="5.75" y2="7.2" width="0.2032" layer="51"/>
-<wire x1="5.75" y1="7.2" x2="5.75" y2="-6.4" width="0.2032" layer="21"/>
-<wire x1="5.75" y1="-6.4" x2="-5.75" y2="-6.4" width="0.2032" layer="21"/>
-<wire x1="-5.75" y1="-6.4" x2="-5.75" y2="7.2" width="0.2032" layer="21"/>
-<wire x1="3.775" y1="7.2" x2="5.75" y2="7.2" width="0.2032" layer="21"/>
-<wire x1="-5.75" y1="7.2" x2="-3.775" y2="7.2" width="0.2032" layer="21"/>
-<wire x1="-1.305" y1="7.2" x2="1.305" y2="7.2" width="0.2032" layer="21"/>
-<wire x1="-1.1" y1="0.625" x2="1.1" y2="0.625" width="0.2032" layer="21" curve="239.208901"/>
-<wire x1="-1.1" y1="0.625" x2="1.1" y2="0.625" width="0.2032" layer="21"/>
-<wire x1="-2.45" y1="0.625" x2="2.425" y2="0.625" width="0.2032" layer="21"/>
+<wire x1="5.75" y1="7.2" x2="5.75" y2="-6.4" width="0.2032" layer="52"/>
+<wire x1="5.75" y1="-6.4" x2="-5.75" y2="-6.4" width="0.2032" layer="52"/>
+<wire x1="-5.75" y1="-6.4" x2="-5.75" y2="7.2" width="0.2032" layer="52"/>
+<wire x1="3.775" y1="7.2" x2="5.75" y2="7.2" width="0.2032" layer="52"/>
+<wire x1="-5.75" y1="7.2" x2="-3.775" y2="7.2" width="0.2032" layer="52"/>
+<wire x1="-1.305" y1="7.2" x2="1.305" y2="7.2" width="0.2032" layer="52"/>
+<wire x1="-1.1" y1="0.625" x2="1.1" y2="0.625" width="0.2032" layer="51" curve="239.208901"/>
+<wire x1="-1.1" y1="0.625" x2="1.1" y2="0.625" width="0.2032" layer="51"/>
+<wire x1="-2.45" y1="0.625" x2="2.425" y2="0.625" width="0.2032" layer="51"/>
 <rectangle x1="-2.95" y1="-7.625" x2="-2.05" y2="-6.475" layer="51"/>
 <rectangle x1="2.075" y1="-7.625" x2="2.925" y2="-6.45" layer="51" rot="R180"/>
-<text x="-3.81" y="4.445" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.81" y="-5.715" size="1.27" layer="27">&gt;VALUE</text>
+<text x="0" y="5.207" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.969" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
 <hole x="0" y="0" drill="7"/>
 <smd name="D" x="-5.08" y="-10.16" dx="1.778" dy="1.27" layer="16" rot="R270"/>
 <smd name="E" x="5.08" y="-10.16" dx="1.778" dy="1.27" layer="16" rot="R270"/>
@@ -8500,16 +8500,16 @@ Source: www.piher.net .. 04-CI-11v04.pdf</description>
 <rectangle x1="-0.41" y1="-7.625" x2="0.49" y2="-6.475" layer="51"/>
 <rectangle x1="-2.95" y1="7.361" x2="-2.05" y2="8.511" layer="51"/>
 <rectangle x1="2.13" y1="7.361" x2="3.03" y2="8.511" layer="51"/>
-<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="21"/>
-<wire x1="0" y1="-7.62" x2="0" y2="-10.16" width="0.254" layer="21"/>
-<wire x1="2.54" y1="-7.62" x2="2.54" y2="-10.16" width="0.254" layer="21"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="52"/>
+<wire x1="0" y1="-7.62" x2="0" y2="-10.16" width="0.254" layer="52"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-10.16" width="0.254" layer="52"/>
 <circle x="0" y="0" radius="4.4901" width="0.2032" layer="40"/>
-<wire x1="-2.54" y1="8.509" x2="-2.54" y2="9.017" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="9.017" x2="-5.08" y2="9.017" width="0.2032" layer="21"/>
-<wire x1="-5.08" y1="9.017" x2="-5.08" y2="-10.033" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="8.382" x2="2.54" y2="9.017" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="9.017" x2="5.08" y2="9.017" width="0.2032" layer="21"/>
-<wire x1="5.08" y1="9.017" x2="5.08" y2="-10.16" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="8.509" x2="-2.54" y2="9.017" width="0.2032" layer="52"/>
+<wire x1="-2.54" y1="9.017" x2="-5.08" y2="9.017" width="0.2032" layer="52"/>
+<wire x1="-5.08" y1="9.017" x2="-5.08" y2="-10.033" width="0.2032" layer="52"/>
+<wire x1="2.54" y1="8.382" x2="2.54" y2="9.017" width="0.2032" layer="52"/>
+<wire x1="2.54" y1="9.017" x2="5.08" y2="9.017" width="0.2032" layer="52"/>
+<wire x1="5.08" y1="9.017" x2="5.08" y2="-10.16" width="0.2032" layer="52"/>
 </package>
 <package name="SOLDER_PAD">
 <smd name="P$1" x="0" y="0" dx="2.54" dy="1.9304" layer="1" rot="R90"/>
@@ -13820,6 +13820,11 @@ Source: http://www.mew-europe.com/..  en_ds_61022_0022.pdf</description>
 <pinref part="R26" gate="G$1" pin="2"/>
 <label x="243.84" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="PB1(OC1A)"/>
+<wire x1="119.38" y1="45.72" x2="121.92" y2="45.72" width="0.1524" layer="91"/>
+<label x="121.92" y="45.72" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -14037,15 +14042,12 @@ Source: http://www.mew-europe.com/..  en_ds_61022_0022.pdf</description>
 <pinref part="GND11" gate="1" pin="GND"/>
 <pinref part="S3" gate="G$1" pin="3.1"/>
 <wire x1="33.02" y1="73.66" x2="33.02" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="S3" gate="G$1" pin="3.2"/>
 <wire x1="33.02" y1="76.2" x2="33.02" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="76.2" x2="35.56" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="76.2" x2="35.56" y2="78.74" width="0.1524" layer="91"/>
 <junction x="33.02" y="76.2"/>
 <pinref part="S3" gate="G$1" pin="SH1"/>
 <wire x1="35.56" y1="76.2" x2="38.1" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="76.2" x2="38.1" y2="78.74" width="0.1524" layer="91"/>
-<junction x="35.56" y="76.2"/>
 <pinref part="S3" gate="G$1" pin="SH2"/>
 <wire x1="38.1" y1="76.2" x2="40.64" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="76.2" x2="40.64" y2="78.74" width="0.1524" layer="91"/>
@@ -14379,6 +14381,11 @@ Source: http://www.mew-europe.com/..  en_ds_61022_0022.pdf</description>
 <wire x1="314.96" y1="58.42" x2="314.96" y2="60.96" width="0.1524" layer="91"/>
 <label x="314.96" y="60.96" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="PB2(SS/OC1B)"/>
+<wire x1="119.38" y1="43.18" x2="121.92" y2="43.18" width="0.1524" layer="91"/>
+<label x="121.92" y="43.18" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="N$4" class="0">
 <segment>
@@ -14612,6 +14619,11 @@ Source: http://www.mew-europe.com/..  en_ds_61022_0022.pdf</description>
 <wire x1="304.8" y1="58.42" x2="304.8" y2="60.96" width="0.1524" layer="91"/>
 <label x="304.8" y="60.96" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="PB0(ICP)"/>
+<wire x1="119.38" y1="48.26" x2="121.92" y2="48.26" width="0.1524" layer="91"/>
+<label x="121.92" y="48.26" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="N$13" class="0">
 <segment>
@@ -14661,9 +14673,7 @@ Source: http://www.mew-europe.com/..  en_ds_61022_0022.pdf</description>
 <net name="RESET" class="0">
 <segment>
 <pinref part="C4" gate="G$1" pin="1"/>
-<pinref part="S3" gate="G$1" pin="4.1"/>
 <wire x1="30.48" y1="93.98" x2="33.02" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="93.98" x2="33.02" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="S3" gate="G$1" pin="4.2"/>
 <wire x1="33.02" y1="93.98" x2="35.56" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="93.98" x2="35.56" y2="91.44" width="0.1524" layer="91"/>
