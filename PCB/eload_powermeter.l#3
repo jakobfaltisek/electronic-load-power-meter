@@ -4131,8 +4131,8 @@ Source: http://www3.alps.co.jp/WebObjects/catalog.woa/PDF/E/Switch/Tact/SKHM/SKH
 <wire x1="-7.874" y1="0.635" x2="-7.62" y2="0.508" width="0.1524" layer="21"/>
 <wire x1="-7.62" y1="0.508" x2="-7.62" y2="0.127" width="0.1524" layer="21"/>
 <wire x1="-7.62" y1="0.508" x2="-7.366" y2="0.635" width="0.1524" layer="21"/>
-<pad name="B2,5" x="12.7" y="-0.889" drill="2.54" diameter="5.08"/>
-<pad name="A2,5" x="-12.7" y="-0.889" drill="2.54" diameter="5.08"/>
+<pad name="B2,5" x="12.7" y="-0.889" drill="2.54" diameter="5.08" shape="octagon"/>
+<pad name="A2,5" x="-12.7" y="-0.889" drill="2.54" diameter="5.08" shape="octagon"/>
 <text x="-5.08" y="-5.08" size="1.778" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.08" y="-7.62" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 <text x="11.43" y="-3.81" size="1.27" layer="48">2,5</text>

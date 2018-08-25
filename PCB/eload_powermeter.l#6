@@ -4727,8 +4727,8 @@ Source: http://www3.alps.co.jp/WebObjects/catalog.woa/PDF/E/Switch/Tact/SKHM/SKH
 <rectangle x1="-12.446" y1="1.778" x2="-11.684" y2="3.048" layer="94" rot="R270"/>
 <rectangle x1="-8.636" y1="1.778" x2="-7.874" y2="3.048" layer="94" rot="R270"/>
 <rectangle x1="-10.541" y1="1.524" x2="-9.779" y2="3.302" layer="94" rot="R270"/>
-<pin name="G1" x="-12.7" y="5.08" visible="off" length="point" direction="pas" rot="R270"/>
-<pin name="D1" x="0" y="5.08" visible="off" length="middle" direction="pas" rot="R270"/>
+<pin name="G1" x="-12.7" y="5.08" visible="pad" length="point" direction="pas" rot="R270"/>
+<pin name="D1" x="0" y="5.08" visible="pad" length="middle" direction="pas" rot="R270"/>
 <pin name="S1" x="-15.24" y="0" visible="pad" length="short" direction="pas"/>
 <wire x1="7.747" y1="3.6576" x2="12.7" y2="3.6576" width="0.254" layer="94"/>
 <wire x1="12.7" y1="3.6576" x2="12.7" y2="5.08" width="0.1524" layer="94"/>
@@ -4764,9 +4764,9 @@ Source: http://www3.alps.co.jp/WebObjects/catalog.woa/PDF/E/Switch/Tact/SKHM/SKH
 <rectangle x1="11.684" y1="1.778" x2="12.446" y2="3.048" layer="94" rot="R270"/>
 <rectangle x1="7.874" y1="1.778" x2="8.636" y2="3.048" layer="94" rot="R270"/>
 <rectangle x1="9.779" y1="1.524" x2="10.541" y2="3.302" layer="94" rot="R270"/>
-<pin name="G2" x="12.7" y="5.08" visible="off" length="point" direction="pas" rot="R270"/>
-<pin name="D2" x="0" y="5.08" visible="off" length="middle" direction="pas" rot="R270"/>
-<pin name="S2" x="15.24" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="G2" x="12.7" y="5.08" visible="pad" length="point" direction="pas" rot="R270"/>
+<pin name="D2" x="0" y="5.08" visible="pad" length="middle" direction="pas" rot="R270"/>
+<pin name="S2" x="15.24" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
 <wire x1="-15.24" y1="5.08" x2="15.24" y2="5.08" width="0.254" layer="94"/>
 <wire x1="15.24" y1="5.08" x2="15.24" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-5.08" x2="-15.24" y2="-5.08" width="0.254" layer="94"/>
